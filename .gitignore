@@ -1,0 +1,50 @@
+# Git ignore file for E-Commerce MySQL project
+
+# ── MySQL credentials and connection files ─────────────────────
+*.cnf
+my.cnf
+.my.cnf
+mysql_credentials.txt
+connection_string.txt
+
+# ── MySQL dump files (can be large; regenerate from scripts) ───
+*.sql.gz
+*.sql.bz2
+*.dump
+*.dmp
+
+# ── MySQL Workbench local files ─────────────────────────────────
+*.mwb.bak
+*.mwb~
+
+# ── OS generated files ─────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Editor config and local workspace files ─────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment files (never commit secrets) ────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Logs ────────────────────────────────────────────────────────
+*.log
+mysql_error.log
+
+# ── Temporary files ─────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
